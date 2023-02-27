@@ -1,0 +1,233 @@
+body {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #808080;
+  padding: 54px 40px 24px 40px;
+}
+/* wrapper */
+.wrapper {
+  box-shadow: 0 0 4px 4px rgb(102, 101, 101);
+  display: flex;
+  flex-direction: row-reverse;
+  background: #5c5c5c;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* main content */
+.main-content {
+  padding: 88px;
+}
+.main-content-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+/* About me  */
+.my-profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+}
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #ffffff;
+  margin: 0 0 28px 0;
+  background: #4b4c4d;
+  box-shadow: 5px 5px 0px #484958,-5px -5px 0px #ffffff;
+}
+.my-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 516px;
+}
+.about-me-container {
+  margin-bottom: 64px;
+}
+/* Projects  */
+.pajects-container {
+  margin: 0 0 48px 0;
+}
+.projects-list {
+  margin: 0 0 0 18px;
+  padding: 0;
+  color: rgb(194, 148, 206);
+}
+.projects-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(194, 148, 206);
+}
+.projects-item-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: rgb(156, 140, 140);
+}
+.projects-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.company {
+  margin: 0;
+  padding: 0 0 0 18px;
+  color: rgb(194, 148, 206);
+}
+.company-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #a1a1a1;
+}
+/* Work experiance  */
+.work-experiance-container {
+  margin: 0 0 44px 0;
+}
+.work-experiance-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+.work-experiance-place {
+  margin-bottom: 16px;
+}
+.work-experiance-company {
+  color: #e0b2b2;
+}
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 12px 0 8px 0;
+  color: #797979;
+}
+/* Education  */
+.education-position {
+  color: #d2d2e6;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.education-company {
+  color: #f1c9c9;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px 0 18px 0;
+  padding: 0;
+}
+.education-poss {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+.education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 12px 0 0 0;
+  color: #797979;
+}
+
+/* Sidebar  */
+.sidebar {
+  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 370px;
+  background-color: #4d4d4d;
+}
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+}
+
+.my-photo {
+  margin-top: 40px;
+}
+.contacts-container,
+.tech-skills-container {
+  margin: 48px 0 0 40px;
+}
+/* Contacts  */
+.contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  margin-right: 8px;
+}
+.contacts-item {
+  margin: 0;
+}
+.contacts-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(100, 198, 243);
+}
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(100, 198, 243);
+}
+/* Tech Skills */
+.skills-list {
+  margin: 0 0 0 24px;
+  padding: 0;
+}
+.skills-list-item {
+  color: rgb(194, 148, 206);
+}
+.skills-list-text {
+  color: white;
+}
+
+/* Soft skills */
+
+.soft-skills-container {
+  margin: 48px 0 0 40px;
+}
+.soft-list {
+  margin: 0 0 0 24px;
+  padding: 0;
+}
+.soft-skills-list-item {
+  color: rgb(194, 148, 206);
+}
+.soft-skills-list-text {
+  color: white;
+}
